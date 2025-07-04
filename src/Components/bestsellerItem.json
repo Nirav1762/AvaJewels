@@ -1,0 +1,27 @@
+[
+        {
+            "itemNumber" : 8,
+            "PrimarySource" : "src/assets/Images/ring8.jpg",
+            "ItemName" : "Eternity Claw Oval Diamond Ring",
+            "ItemNameLink" : "/EternityClawOvalDiamondRing",
+            "Price" : "From ₹ 2,90,000",
+            "Shape" : "Oval" 
+        },
+        {
+            "itemNumber" : 2,
+            "PrimarySource" : "src/assets/Images/Earring2.jpg",
+            "ItemName" : "Spider Hoops Diamond Earrings",
+            "ItemNameLink" : "/SpiderHoopsDiamondEarrings",
+            "Price" : "From ₹ 3,00,000",
+            "Shape" : "Round",
+            "Style" : "Hoops"
+        },
+        {
+            "itemNumber" : 5,
+            "PrimarySource" : "src/assets/Images/ring5.jpg",
+            "ItemName" : "Venus Artdeco Oval Diamond Ring",
+            "ItemNameLink" : "/VenusArtdecoOvalDiamondRing",
+            "Price" : "From ₹ 2,70,000",
+            "Shape" : "Oval"
+        }
+]

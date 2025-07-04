@@ -1,0 +1,3 @@
+This project revolves around creating a user-friendly ecommerce website for a local jewelry store giving them the ability to have their entire product listing on the website. This allows any potential customer to use filters to find jewelry pieces they like based on criterias like shape of diamond involved in the jewelry and the price associated with such jewelry pieces. Moreover, the website also allows them to pre-book any jewelry(s) they like at 10% of the original price so they can then proceed to buy them later, at their own convienence, through the physical shop.
+
+This is purely front-end based website with persistence added into to it have a better user-experience.
