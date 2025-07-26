@@ -130,7 +130,7 @@ const App = () => {
           <Route path="/privacy" element={<Privacy />} /> 
           <Route path="/tos" element={<TOS />} />
         </Routes>
-        </Router>
+      </Router>
     </CartProvider>
   );
 };
