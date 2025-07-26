@@ -6,7 +6,7 @@ const Hero = () => {
   return (
       <div className='hero'>
           <video className='heroVideo' autoPlay loop muted playsInline>
-          <source src={`${process.env.NODE_ENV === 'production' ? '/AvaJewels' : ''}/Videos/heroVideo.mp4`} type="video/mp4" />
+            <source src="./Videos/heroVideo.mp4" type="video/mp4" />
           </video>
           <div className='heroPromoBox'>
               <div className='textBox1'>
