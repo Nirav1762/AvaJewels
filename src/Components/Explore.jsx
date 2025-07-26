@@ -26,14 +26,14 @@ const Explore = () => {
                 <div>RINGS</div>
                 <Link to="/rings"><button style={exploreButton}>Explore</button></Link>
             </div>
-            <SmartImage className='exploreSectionImage' src='src\assets\Images\exploreRings.png'></SmartImage>
+            <SmartImage className='exploreSectionImage' src='Images/exploreRings.png'></SmartImage>
         </div>
         <div className='exploreSectionContainer'>
             <div className='exploreItemName'>
                 <div>EARRINGS</div>
                 <Link to="/earrings"><button style={exploreButton}>Explore</button></Link>
             </div>
-            <SmartImage className='exploreSectionImage' src='src\assets\Images\exploreEarrings.png'></SmartImage>
+            <SmartImage className='exploreSectionImage' src='Images/exploreEarrings.png'></SmartImage>
         </div>
     </div>
     </>

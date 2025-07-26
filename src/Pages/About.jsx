@@ -40,7 +40,7 @@ const About = () => {
 
         <div className='aboutSection'>
           <div className='aboutHeroSection'>
-            <SmartImage className="aboutHero"  src='src\assets\Images\aboutHero.png'></SmartImage>
+            <SmartImage className="aboutHero"  src='Images/aboutHero.png'></SmartImage>
             <div className='aboutHeroText'>MOMENTS MATTER</div>
           </div>
 
@@ -53,7 +53,7 @@ const About = () => {
           <div style={{width: "80%", borderBottom:"solid", borderWidth: "0.2px", borderColor: "rgba(0,0,0,0.2)", marginLeft:"9%", marginTop:"1%", marginBottom: "1%"}}></div>
 
           <div className='aboutPromoText2'>
-              <SmartImage className='aboutPromoTextImage' src='src\assets\Images\promoImage.png'></SmartImage>
+              <SmartImage className='aboutPromoTextImage' src='Images/promoImage.png'></SmartImage>
             <div className='aboutPromoText'>
               <p style = {badge}>WHEN COMFORT MEETS ELEGANCE</p>
               <h1 style={{fontSize: "2.2em", textAlign: "left", width: "100vw", fontFamily: 'ZT Mota', fontWeight: 'normal'}}>WEARABLE LUXURY</h1>

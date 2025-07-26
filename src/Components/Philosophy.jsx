@@ -19,7 +19,7 @@ function philosophy() {
   return (
     <>
     <div className='philosophySection'>
-    <SmartImage className='philosophySectionImage' src='src\assets\Images\homePageRing.png'></SmartImage>
+    <SmartImage className='philosophySectionImage' src='Images/homePageRing.png'></SmartImage>
     <div className='philosophySectionText'>
       <p style = {badge}>● AVA JEWELS PHILOSOPHY</p>
       <h1 style={{fontSize: "140%", textAlign: "left", width: "100vw", fontFamily: 'ZT Mota', fontWeight: 'normal'}}>EFFORTLESSLY ELEGANT</h1>
