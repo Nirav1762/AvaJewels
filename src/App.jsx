@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import FAQ from "./Pages/FAQ";
 import Contact from "./Pages/Contact";
@@ -67,7 +67,7 @@ import { CartProvider } from './contexts/CartContext';
 const App = () => {
   return (
     <CartProvider>
-      <BrowserRouter basename="/AvaJewels">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
@@ -130,7 +130,7 @@ const App = () => {
           <Route path="/privacy" element={<Privacy />} /> 
           <Route path="/tos" element={<TOS />} />
         </Routes>
-        </BrowserRouter>
+        </Router>
     </CartProvider>
   );
 };
