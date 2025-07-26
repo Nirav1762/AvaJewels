@@ -3,9 +3,11 @@ import React from "react";
 const SmartImage = ({ src, alt = '', ...props }) => {
   if (!src) return null;
 
-  // Remove any leading slashes and encode URI
   const cleanSrc = encodeURI(src.replace(/^\/+/, ''));
-  const fullSrc = `${process.env.PUBLIC_URL}/${cleanSrc}`;
+
+  // Detect production and use /AvaJewels as base path
+  const basePath = process.env.NODE_ENV === 'production' ? '/AvaJewels' : '';
+  const fullSrc = `${basePath}/${cleanSrc}`;
 
   return <img src={fullSrc} alt={alt} loading="lazy" {...props} />;
 };
