@@ -47,11 +47,11 @@ const Navbar = ({setShowMenu, setShowSearch, setShowCart, overrideScrolled, over
   return (
     <>                                       
     <nav className={`navbar ${scrolled ? "navbar-scrolled" : "navbar-transparent"}`}>
-      <Link to={"/"} className='logo'><SmartImage src={delay ? 'Images/Black AVA.png' : 'Images/White AVA.png'}></SmartImage></Link>
+      <Link to={"/"} className='logo'><SmartImage src={delay ? 'Images/BlackAVA.png' : 'Images/WhiteAVA.png'}></SmartImage></Link>
       <div className='navigator'>
-          <a onClick={() => setShowSearch(true)} className='search' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/Black Search.png' : 'Images/White Search.png'}></SmartImage></a>
-          <a onClick={() => setShowCart(true)}className='addToCart' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/Black Cart.png' : 'Images/White Cart.png'}></SmartImage></a>
-          <a onClick={() => setShowMenu(true)} className='menu' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/Black Menu.png' : 'Images/White Menu.png'}></SmartImage></a>
+          <a onClick={() => setShowSearch(true)} className='search' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/BlackSearch.png' : 'Images/WhiteSearch.png'}></SmartImage></a>
+          <a onClick={() => setShowCart(true)}className='addToCart' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/BlackCart.png' : 'Images/WhiteCart.png'}></SmartImage></a>
+          <a onClick={() => setShowMenu(true)} className='menu' style = {navigatorLinkTemplate}><SmartImage src={delay ? 'Images/BlackMenu.png' : 'Images/WhiteMenu.png'}></SmartImage></a>
       </div>
     </nav>
     </>
