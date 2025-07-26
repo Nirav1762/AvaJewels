@@ -1,7 +1,7 @@
 [
         {
             "itemNumber" : 1,
-            "PrimarySource" : "src/assets/Images/Earring1.jpg",
+            "PrimarySource" : "/Images/Earring1.jpg",
             "ItemName" : "Leaf Hoops Diamond Earrings",
             "ItemNameLink" : "/LeafHoopsDiamondEarrings",
             "Price" : "From ₹ 2,40,000",
@@ -10,7 +10,7 @@
         },
         {
             "itemNumber" : 2,
-            "PrimarySource" : "src/assets/Images/Earring2.jpg",
+            "PrimarySource" : "/Images/Earring2.jpg",
             "ItemName" : "Spider Hoops Diamond Earrings",
             "ItemNameLink" : "/SpiderHoopsDiamondEarrings",
             "Price" : "From ₹ 3,00,000",
@@ -19,7 +19,7 @@
         },
         {
             "itemNumber" : 3,
-            "PrimarySource" : "src/assets/Images/Earring3.jpg",
+            "PrimarySource" : "/Images/Earring3.jpg",
             "ItemName" : "Kongo Hoops Diamond Earrrings",
             "ItemNameLink" : "/KongoHoopsDiamondEarrings",
             "Price" : "From ₹ 2,00,000",
@@ -28,7 +28,7 @@
         },
         {
             "itemNumber" : 4,
-            "PrimarySource" : "src/assets/Images/Earring6.jpg",
+            "PrimarySource" : "/Images/Earring6.jpg",
             "ItemName" : "Side Halo Round Diamond Studs",
             "ItemNameLink" : "/SideHaloRoundDiamondStuds",
             "Price" : "From ₹ 1,80,000",
@@ -37,7 +37,7 @@
         },
         {
             "itemNumber" : 5,
-            "PrimarySource" : "src/assets/Images/Earring7.jpg",
+            "PrimarySource" : "/Images/Earring7.jpg",
             "ItemName" : "Halo Round Diamond Studs",
             "ItemNameLink" : "/HaloRoundDiamondStuds",
             "Price" : "From ₹ 1,70,000",
@@ -46,7 +46,7 @@
         },
         {
             "itemNumber" : 6,
-            "PrimarySource" : "src/assets/Images/Earring8.jpg",
+            "PrimarySource" : "/Images/Earring8.jpg",
             "ItemName" : "Flower Round Diamond Studs",
             "ItemNameLink" : "/FlowerRoundDiamondStuds",
             "Price" : "From ₹ 2,40,000",
@@ -55,7 +55,7 @@
         },
         {
             "itemNumber" : 7,
-            "PrimarySource" : "src/assets/Images/Earring9.jpg",
+            "PrimarySource" : "/Images/Earring9.jpg",
             "ItemName" : "Double Halo Round Diamond Studs",
             "ItemNameLink" : "/DoubleHaloRoundDiamondStuds",
             "Price" : "From ₹ 1,90,000",
@@ -64,7 +64,7 @@
         },
         {
             "itemNumber" : 8,
-            "PrimarySource" : "src/assets/Images/Earring10.jpg",
+            "PrimarySource" : "/Images/Earring10.jpg",
             "ItemName" : "Sharp Radiant Diamond Studs",
             "ItemNameLink" : "/SharpRadiantDiamondStuds",
             "Price" : "From ₹ 1,20,000",
@@ -73,7 +73,7 @@
         },
         {
             "itemNumber" : 9,
-            "PrimarySource" : "src/assets/Images/Earring11.jpg",
+            "PrimarySource" : "/Images/Earring11.jpg",
             "ItemName" : "Side Halo Radiant Diamond Studs",
             "ItemNameLink" : "/SideHaloRadiantDiamondStuds",
             "Price" : "From ₹ 1,40,000",
@@ -82,7 +82,7 @@
         },
         {
             "itemNumber" : 10,
-            "PrimarySource" : "src/assets/Images/Earring12.jpg",
+            "PrimarySource" : "/Images/Earring12.jpg",
             "ItemName" : "Hidden Halo Princess Diamond Studs",
             "ItemNameLink" : "/HiddenHaloPrincessDiamondStuds",
             "Price" : "From ₹ 1,50,000",
@@ -91,7 +91,7 @@
         },
         {
             "itemNumber" : 11,
-            "PrimarySource" : "src/assets/Images/Earring13.jpg",
+            "PrimarySource" : "/Images/Earring13.jpg",
             "ItemName" : "Double Claw Princess Diamond Studs",
             "ItemNameLink" : "/DoubleClawPrincessDiamondStuds",
             "Price" : "From ₹ 1,15,000",
@@ -100,7 +100,7 @@
         },
         {
             "itemNumber" : 12,
-            "PrimarySource" : "src/assets/Images/Earring14.jpg",
+            "PrimarySource" : "/Images/Earring14.jpg",
             "ItemName" : "Hidden Halo Pear Diamond Studs",
             "ItemNameLink" : "/HiddenHaloPearDiamondStuds",
             "Price" : "From ₹ 1,35,000",
@@ -109,7 +109,7 @@
         },
         {
             "itemNumber" : 13,
-            "PrimarySource" : "src/assets/Images/Earring15.jpg",
+            "PrimarySource" : "/Images/Earring15.jpg",
             "ItemName" : "Claw Pear Diamond Studs",
             "ItemNameLink" : "/ClawPearDiamondStuds",
             "Price" : "From ₹ 1,30,000",
@@ -118,7 +118,7 @@
         },
         {
             "itemNumber" : 14,
-            "PrimarySource" : "src/assets/Images/Earring16.jpg",
+            "PrimarySource" : "/Images/Earring16.jpg",
             "ItemName" : "Sharp Oval Diamond Studs",
             "ItemNameLink" : "/SharpOvalDiamondStuds",
             "Price" : "From ₹ 1,50,000",
@@ -127,7 +127,7 @@
         },
         {
             "itemNumber" : 15,
-            "PrimarySource" : "src/assets/Images/Earring17.jpg",
+            "PrimarySource" : "/Images/Earring17.jpg",
             "ItemName" : "Pillow Oval Diamond Studs",
             "ItemNameLink" : "/PillowOvalDiamondStuds",
             "Price" : "From ₹ 1,70,000",
@@ -136,7 +136,7 @@
         },
         {
             "itemNumber" : 16,
-            "PrimarySource" : "src/assets/Images/Earring18.jpg",
+            "PrimarySource" : "/Images/Earring18.jpg",
             "ItemName" : "Double Claw Emerald Diamond Studs",
             "ItemNameLink" : "/DoubleClawEmeraldDiamondStuds",
             "Price" : "From ₹ 1,00,000",
@@ -145,7 +145,7 @@
         },
         {
             "itemNumber" : 17,
-            "PrimarySource" : "src/assets/Images/Earring19.jpg",
+            "PrimarySource" : "/Images/Earring19.jpg",
             "ItemName" : "Double Halo Emerald Diamond Studs",
             "ItemNameLink" : "/DoubleHaloEmeraldDiamondStuds",
             "Price" : "From ₹ 1,35,000",
@@ -154,7 +154,7 @@
         },
         {
             "itemNumber" : 18,
-            "PrimarySource" : "src/assets/Images/Earring20.jpg",
+            "PrimarySource" : "/Images/Earring20.jpg",
             "ItemName" : "Grace Round Diamond Studs",
             "ItemNameLink" : "/GraceRoundDiamondStuds",
             "Price" : "From ₹ 1,20,000",
@@ -163,7 +163,7 @@
         },
         {
             "itemNumber" : 19,
-            "PrimarySource" : "src/assets/Images/Earring21.jpg",
+            "PrimarySource" : "/Images/Earring21.jpg",
             "ItemName" : "Minimalism Round Diamond Studs",
             "ItemNameLink" : "/MinimalismRoundDiamondStuds",
             "Price" : "From ₹ 1,05,000",

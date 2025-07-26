@@ -87,7 +87,7 @@ const DirectBookNow = () => {
             </form>
 
             <div className="order-summary">
-                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='src/assets/Images/White AVA.png' alt="AVA Logo" /></Link>
+                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='/Images/White AVA.png' alt="AVA Logo" /></Link>
                 <h3>Your Item</h3>
 
                 <div className="summary-item">

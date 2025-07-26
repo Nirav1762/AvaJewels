@@ -1,7 +1,7 @@
 [
         {
             "itemNumber" : 1,
-            "PrimarySource" : "src/assets/Images/ring1.jpg",
+            "PrimarySource" : "/Images/ring1.jpg",
             "ItemName" : "Chanel Minimalism Diamond Ring",
             "ItemNameLink" : "/ChanelMinimalismDiamondRing",
             "Price" : "From ₹ 1,60,000",
@@ -9,7 +9,7 @@
         },
         {
             "itemNumber" : 2,
-            "PrimarySource" : "src/assets/Images/ring2.jpg",
+            "PrimarySource" : "/Images/ring2.jpg",
             "ItemName" : "Solo Wedding Diamond Ring",
             "ItemNameLink" : "/SoloWeddingDiamondRing",
             "Price" : "From ₹ 1,00,000",
@@ -17,7 +17,7 @@
         },
         {
             "itemNumber" : 3,
-            "PrimarySource" : "src/assets/Images/ring3.jpg",
+            "PrimarySource" : "/Images/ring3.jpg",
             "ItemName" : "Crown Hidden Halo Diamond Ring",
             "ItemNameLink" : "/CrownHiddenHaloDiamondRing",
             "Price" : "From ₹ 1,20,000",
@@ -25,7 +25,7 @@
         },
         {
             "itemNumber" : 4,
-            "PrimarySource" : "src/assets/Images/ring4.jpg",
+            "PrimarySource" : "/Images/ring4.jpg",
             "ItemName" : "Boca Radiant Diamond Ring",
             "ItemNameLink" : "/BocaRadiantDiamondRing",
             "Price" : "From ₹ 2,60,000",
@@ -33,7 +33,7 @@
         },
         {
             "itemNumber" : 5,
-            "PrimarySource" : "src/assets/Images/ring5.jpg",
+            "PrimarySource" : "/Images/ring5.jpg",
             "ItemName" : "Venus Artdeco Oval Diamond Ring",
             "ItemNameLink" : "/VenusArtdecoOvalDiamondRing",
             "Price" : "From ₹ 2,70,000",
@@ -41,7 +41,7 @@
         },
         {
             "itemNumber" : 6,
-            "PrimarySource" : "src/assets/Images/ring6.jpg",
+            "PrimarySource" : "/Images/ring6.jpg",
             "ItemName" : "Eternity Minimalism Diamond Ring",
             "ItemNameLink" : "/EternityMinimalismDiamondRing",
             "Price" : "From ₹ 3,00,000",
@@ -49,7 +49,7 @@
         },
         {
             "itemNumber" : 7,
-            "PrimarySource" : "src/assets/Images/ring7.jpg",
+            "PrimarySource" : "/Images/ring7.jpg",
             "ItemName" : "Comfort Pillow Pear Diamond Ring",
             "ItemNameLink" : "/ComfortPillowPearDiamondRing",
             "Price" : "From ₹ 1,20,000",
@@ -57,7 +57,7 @@
         },
         {
             "itemNumber" : 8,
-            "PrimarySource" : "src/assets/Images/ring8.jpg",
+            "PrimarySource" : "/Images/ring8.jpg",
             "ItemName" : "Eternity Claw Oval Diamond Ring",
             "ItemNameLink" : "/EternityClawOvalDiamondRing",
             "Price" : "From ₹ 2,90,000",
@@ -65,7 +65,7 @@
         },
         {
             "itemNumber" : 9,
-            "PrimarySource" : "src/assets/Images/ring9.jpg",
+            "PrimarySource" : "/Images/ring9.jpg",
             "ItemName" : "Yin And Yang Diamond Ring",
             "ItemNameLink" : "/YinAndYangDiamondRing",
             "Price" : "From ₹ 2,30,000",
@@ -73,7 +73,7 @@
         },
         {
             "itemNumber" : 10,
-            "PrimarySource" : "src/assets/Images/ring10.jpg",
+            "PrimarySource" : "/Images/ring10.jpg",
             "ItemName" : "Artemis Artdeco Emerald Diamond Ring",
             "ItemNameLink" : "/ArtemisArtdecoEmeraldDiamondRing",
             "Price" : "From ₹ 1,80,000",
@@ -81,7 +81,7 @@
         },
         {
             "itemNumber" : 11,
-            "PrimarySource" : "src/assets/Images/ring11.jpg",
+            "PrimarySource" : "/Images/ring11.jpg",
             "ItemName" : "Gatsby Diamond Ring",
             "ItemNameLink" : "/GatsbyDiamondRing",
             "Price" : "From ₹ 2,15,000",
@@ -89,7 +89,7 @@
         },
         {
             "itemNumber" : 12,
-            "PrimarySource" : "src/assets/Images/ring12.jpg",
+            "PrimarySource" : "/Images/ring12.jpg",
             "ItemName" : "Royal Side Halo Round Diamond Ring",
             "ItemNameLink" : "/RoyalSideHaloRoundDiamondRing",
             "Price" : "From ₹ 2,95,000",
@@ -97,7 +97,7 @@
         },
         {
             "itemNumber" : 13,
-            "PrimarySource" : "src/assets/Images/ring13.jpg",
+            "PrimarySource" : "/Images/ring13.jpg",
             "ItemName" : "Refined Sharp Radiant Diamond Ring",
             "ItemNameLink" : "/RefinedSharpRadiantDiamondRing",
             "Price" : "From ₹ 1,90,000",
@@ -105,7 +105,7 @@
         },
         {
             "itemNumber" : 14,
-            "PrimarySource" : "src/assets/Images/ring14.jpg",
+            "PrimarySource" : "/Images/ring14.jpg",
             "ItemName" : "Refined Hidden Halo Pear Diamond Ring",
             "ItemNameLink" : "/RefinedHiddenHaloPearDiamondRing",
             "Price" : "From ₹ 2,40,000",
@@ -113,7 +113,7 @@
         },
         {
             "itemNumber" : 15,
-            "PrimarySource" : "src/assets/Images/ring15.jpg",
+            "PrimarySource" : "/Images/ring15.jpg",
             "ItemName" : "Mountain Diamond Ring",
             "ItemNameLink" : "/MountainDiamondRing",
             "Price" : "From ₹ 1,30,000",
@@ -121,7 +121,7 @@
         },
         {
             "itemNumber" : 16,
-            "PrimarySource" : "src/assets/Images/ring16.jpg",
+            "PrimarySource" : "/Images/ring16.jpg",
             "ItemName" : "Refined Wedding Diamond Ring",
             "ItemNameLink" : "/RefinedWeddingDiamondRing",
             "Price" : "From ₹ 2,10,000",
@@ -129,7 +129,7 @@
         },
         {
             "itemNumber" : 17,
-            "PrimarySource" : "src/assets/Images/ring17.jpg",
+            "PrimarySource" : "/Images/ring17.jpg",
             "ItemName" : "Gentle Wedding Diamond Ring",
             "ItemNameLink" : "/GentleWeddingDiamondRing",
             "Price" : "From ₹ 2,40,000",
@@ -137,7 +137,7 @@
         },
         {
             "itemNumber" : 18,
-            "PrimarySource" : "src/assets/Images/ring18.jpg",
+            "PrimarySource" : "/Images/ring18.jpg",
             "ItemName" : "Edge Wedding Diamond Ring",
             "ItemNameLink" : "/EdgeWeddingDiamondRing",
             "Price" : "From ₹ 2,20,000",
@@ -145,7 +145,7 @@
         },
         {
             "itemNumber" : 19,
-            "PrimarySource" : "src/assets/Images/ring19.jpg",
+            "PrimarySource" : "/Images/ring19.jpg",
             "ItemName" : "French Wedding Diamond Ring",
             "ItemNameLink" : "/FrenchWeddingDiamondRing",
             "Price" : "From ₹ 1,30,000",
@@ -153,7 +153,7 @@
         },
         {
             "itemNumber" : 20,
-            "PrimarySource" : "src/assets/Images/ring20.jpg",
+            "PrimarySource" : "/Images/ring20.jpg",
             "ItemName" : "Knife Claw Pear Diamond Ring",
             "ItemNameLink" : "/KnifeClawPearDiamondRing",
             "Price" : "From ₹ 1,60,000",
@@ -161,7 +161,7 @@
         },
         {
             "itemNumber" : 21,
-            "PrimarySource" : "src/assets/Images/ring21.jpg",
+            "PrimarySource" : "/Images/ring21.jpg",
             "ItemName" : "Grace Diamond Ring",
             "ItemNameLink" : "/GraceDiamondRing",
             "Price" : "From ₹ 1,20,000",
@@ -169,7 +169,7 @@
         },
         {
             "itemNumber" : 22,
-            "PrimarySource" : "src/assets/Images/ring22.jpg",
+            "PrimarySource" : "/Images/ring22.jpg",
             "ItemName" : "Royal Claw Emerald Diamond Ring",
             "ItemNameLink" : "/RoyalClawEmeraldDiamondRing",
             "Price" : "From ₹ 2,70,000",
@@ -177,7 +177,7 @@
         },
         {
             "itemNumber" : 23,
-            "PrimarySource" : "src/assets/Images/ring23.jpg",
+            "PrimarySource" : "/Images/ring23.jpg",
             "ItemName" : "Gentle Pillow Diamond Ring",
             "ItemNameLink" : "/GentlePillowDiamondRing",
             "Price" : "From ₹ 2,90,000",
@@ -185,7 +185,7 @@
         },
         {
             "itemNumber" : 24,
-            "PrimarySource" : "src/assets/Images/ring24.jpg",
+            "PrimarySource" : "/Images/ring24.jpg",
             "ItemName" : "Gentle Double Halo Diamond Ring",
             "ItemNameLink" : "/GentleDoubleHaloDiamondRing",
             "Price" : "From ₹ 2,70,000",
@@ -193,7 +193,7 @@
         },
         {
             "itemNumber" : 25,
-            "PrimarySource" : "src/assets/Images/ring25.jpg",
+            "PrimarySource" : "/Images/ring25.jpg",
             "ItemName" : "Royal Claw Princess Diamond Ring",
             "ItemNameLink" : "/RoyalClawPrincessDiamondRing",
             "Price" : "From ₹ 1,20,000",
@@ -201,7 +201,7 @@
         },
         {
             "itemNumber" : 26,
-            "PrimarySource" : "src/assets/Images/ring26.jpg",
+            "PrimarySource" : "/Images/ring26.jpg",
             "ItemName" : "Duet Double Halo Oval Diamond Ring",
             "ItemNameLink" : "/DuetDoubleHaloOvalDiamondRing",
             "Price" : "From ₹ 2,40,000",

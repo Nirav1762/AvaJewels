@@ -113,7 +113,7 @@ const EarringPage = () => {
                             ))
                         ) : (
                             <div className="noResults">
-                                <img src="src/assets/Images/noProducts.png" className="noResultsImage" />
+                                <img src="/Images/noProducts.png" className="noResultsImage" />
                             </div>
                         )}
                     </div>

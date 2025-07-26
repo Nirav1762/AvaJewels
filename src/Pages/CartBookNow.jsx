@@ -79,7 +79,7 @@ const CartBookNow = () => {
             </form>
 
             <div className="order-summary">
-                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='src/assets/Images/White AVA.png' alt="AVA Logo" /></Link>
+                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='/Images/White AVA.png' alt="AVA Logo" /></Link>
                 <h3>Your Items</h3>
                 {cartItems.map((item, index) => (
                     <div className="summary-item" key={index}>
