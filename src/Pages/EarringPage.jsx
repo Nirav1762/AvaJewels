@@ -9,6 +9,7 @@ import Links from '../Components/Links';
 import EarringStyleFilter from '../Components/EarringStyleFilter';
 import EarringDiamondShapeFilter from '../Components/EarringDiamondShapeFilter';
 import PriceFilter from '../Components/PriceFilter';
+import SmartImage from '../Components/SmartImage';
 
 const EarringPage = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -104,7 +105,7 @@ const EarringPage = () => {
                                             <button className='buttonActive'>View</button>
                                         </Link>
                                     )}
-                                    <img className='productsImage' src={item.PrimarySource} alt={item.ItemName} />
+                                    <SmartImage className='productsImage' src={item.PrimarySource} alt={item.ItemName} />
                                     <div className='productsDescription'>
                                         <div style={{ fontSize: '1em' }}>{item.ItemName}</div>
                                         <div style={{ fontSize: '0.95em' }}>{item.Price}</div>
@@ -113,7 +114,7 @@ const EarringPage = () => {
                             ))
                         ) : (
                             <div className="noResults">
-                                <img src="/Images/noProducts.png" className="noResultsImage" />
+                                <SmartImage src="Images/noProducts.png" className="noResultsImage" />
                             </div>
                         )}
                     </div>

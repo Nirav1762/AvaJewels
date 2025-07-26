@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../contexts/CartContext'; 
 import { Link } from 'react-router-dom'
+import SmartImage from './SmartImage';
 
 const Cart = ({ setShowCart }) => {
     const { cartItems, removeFromCart } = useContext(CartContext);
@@ -32,7 +33,7 @@ const Cart = ({ setShowCart }) => {
                     cartItems.map((item, index) => (
                         <div key={index} className="cartItems">
                             <div className='cartItemContainer'>
-                                <div className='cartItemImage'><img src={item.PrimarySource}/></div>
+                                <div className='cartItemImage'><SmartImage src={item.PrimarySource}/></div>
                                     <div className='cartItemInfo'>
                                         <div className='cartItemName'>{item.ItemName}</div>
                                         <div className='cartItemSize'>Size: {item.selectedSize || "One Size"}</div>

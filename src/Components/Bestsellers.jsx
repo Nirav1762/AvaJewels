@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../main.css'
 import Items from './bestsellerItem.json'
 import { Link } from 'react-router';
+import SmartImage from './SmartImage';
 
 const Bestsellers = () => {
   const buttonStyle = {
@@ -35,7 +36,7 @@ const Bestsellers = () => {
                 <Link to ={item.ItemNameLink}><button className='buttonActive'>View</button></Link>
               )}
             <div className='bestsellerProductImage'>
-              <img style={{width: "100%", objectFit: "cover"}} src={item.PrimarySource}></img>
+              <SmartImage style={{width: "100%", objectFit: "cover"}} src={item.PrimarySource}></SmartImage>
             </div>
             <div className='bestsellerProductInfo'>
               <p style={{fontSize: "100%", overflowWrap: "break-word", wordWrap:"break-word", marginBottom: "0%"}}>{item.ItemName}</p>

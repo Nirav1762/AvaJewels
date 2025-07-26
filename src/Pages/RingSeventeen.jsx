@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { CartContext } from '../contexts/CartContext';
 import { useNavigate } from 'react-router-dom';
 import rings from '../Components/rings.json';
+import SmartImage from '../Components/SmartImage';
 
 const RingSeventeen = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -54,7 +55,7 @@ const RingSeventeen = () => {
             {showMenu && <Menu setShowMenu={setShowMenu} />} {showSearch && <Search setShowSearch={setShowSearch} />} {showCart && <Cart setShowCart={setShowCart} />}
             <div className="navbar-spacer"></div>
             <div className='productPageSection'>
-                <img className='productPageImage' src={ring.PrimarySource} alt={ring.ItemName} />
+                <SmartImage className='productPageImage' src={ring.PrimarySource} alt={ring.ItemName} />
                 <div className='productPageDescription'>
                     <div style={{ fontFamily: 'Glegoo', fontSize: "2em", width: "70%", lineHeight: 1.3, marginBottom: "2%" }}>
                         {ring.ItemName.toUpperCase()}

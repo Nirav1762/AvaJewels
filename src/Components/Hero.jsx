@@ -1,11 +1,12 @@
 import React from 'react'
 import '../main.css'
 
+
 const Hero = () => {
   return (
       <div className='hero'>
           <video className='heroVideo' autoPlay loop muted playsInline>
-              <source src="src\assets\Videos\heroVideo.mp4" type="video/mp4" />
+            <source src={`${process.env.PUBLIC_URL}/Videos/heroVideo.mp4`} type="video/mp4" />
           </video>
           <div className='heroPromoBox'>
               <div className='textBox1'>

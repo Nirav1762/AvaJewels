@@ -8,6 +8,7 @@ import Information from '../Components/Information';
 import Links from '../Components/Links';
 import { CartContext } from '../contexts/CartContext';
 import earrings from '../Components/earrings.json';
+import SmartImage from '../Components/SmartImage';
 
 const EarringEleven = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -49,7 +50,7 @@ const EarringEleven = () => {
 
             <div className="navbar-spacer"></div>
             <div className='productPageSection'>
-                <img className='productPageImage' src={earring.PrimarySource} alt={earring.ItemName} />
+                <SmartImage className='productPageImage' src={earring.PrimarySource} alt={earring.ItemName} />
                 <div className='productPageDescription'>
                     <div style={{ fontFamily: 'Glegoo', fontSize: "2em", width: "70%", lineHeight: 1.3, marginBottom: "2%" }}>
                         {earring.ItemName.toUpperCase()}

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../main.css'
+import SmartImage from './SmartImage';
 
 function philosophy() {
   const badge = {
@@ -18,7 +19,7 @@ function philosophy() {
   return (
     <>
     <div className='philosophySection'>
-    <img className='philosophySectionImage' src='src\assets\Images\homePageRing.png'></img>
+    <SmartImage className='philosophySectionImage' src='src\assets\Images\homePageRing.png'></SmartImage>
     <div className='philosophySectionText'>
       <p style = {badge}>● AVA JEWELS PHILOSOPHY</p>
       <h1 style={{fontSize: "140%", textAlign: "left", width: "100vw", fontFamily: 'ZT Mota', fontWeight: 'normal'}}>EFFORTLESSLY ELEGANT</h1>

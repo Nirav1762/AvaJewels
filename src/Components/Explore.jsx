@@ -1,6 +1,7 @@
 import React from 'react'
 import '../main.css'
 import { Link } from 'react-router-dom'
+import SmartImage from './SmartImage';
 
 const Explore = () => {
     const exploreButton = {
@@ -25,14 +26,14 @@ const Explore = () => {
                 <div>RINGS</div>
                 <Link to="/rings"><button style={exploreButton}>Explore</button></Link>
             </div>
-            <img className='exploreSectionImage' src='src\assets\Images\exploreRings.png'></img>
+            <SmartImage className='exploreSectionImage' src='src\assets\Images\exploreRings.png'></SmartImage>
         </div>
         <div className='exploreSectionContainer'>
             <div className='exploreItemName'>
                 <div>EARRINGS</div>
                 <Link to="/earrings"><button style={exploreButton}>Explore</button></Link>
             </div>
-            <img className='exploreSectionImage' src='src\assets\Images\exploreEarrings.png'></img>
+            <SmartImage className='exploreSectionImage' src='src\assets\Images\exploreEarrings.png'></SmartImage>
         </div>
     </div>
     </>

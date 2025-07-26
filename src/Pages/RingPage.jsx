@@ -8,6 +8,7 @@ import Items from '../Components/rings.json';
 import Links from '../Components/Links';
 import DiamondShapeFilter from '../Components/DiamondShapeFilter';
 import PriceFilter from '../Components/PriceFilter';
+import SmartImage from '../Components/SmartImage';
 
 const RingPage = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -91,7 +92,7 @@ const RingPage = () => {
                                     {hoveredCardIndex === index && (
                                         <Link to ={item.ItemNameLink}><button className='buttonActive'>View</button></Link>
                                     )}
-                                    <img className='productsImage' src={item.PrimarySource} alt={item.ItemName} />
+                                    <SmartImage className='productsImage' src={item.PrimarySource} alt={item.ItemName} />
                                     <div className='productsDescription'>
                                         <div style={{ fontSize: '1em' }}>{item.ItemName}</div>
                                         <div style={{ fontSize: '0.95em' }}>{item.Price}</div>
@@ -100,7 +101,7 @@ const RingPage = () => {
                             ))
                         ) : (
                             <div className="noResults">
-                                <img src="/Images/noProducts.png" className="noResultsImage" />
+                                <SmartImage src="Images/noProducts.png" className="noResultsImage" />
                             </div>
                         )}
                     </div>

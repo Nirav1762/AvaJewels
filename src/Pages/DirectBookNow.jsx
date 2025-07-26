@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import SmartImage from '../Components/SmartImage';
 
 const DirectBookNow = () => {
     const location = useLocation();
@@ -87,11 +88,11 @@ const DirectBookNow = () => {
             </form>
 
             <div className="order-summary">
-                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='/Images/White AVA.png' alt="AVA Logo" /></Link>
+                <Link to="/"><SmartImage style={{width: "15%", cursor: "pointer"}} src='Images/White AVA.png' alt="AVA Logo" /></Link>
                 <h3>Your Item</h3>
 
                 <div className="summary-item">
-                    <img src={item.PrimarySource} alt={item.ItemName} />
+                    <SmartImage src={item.PrimarySource} alt={item.ItemName} />
                     <div className="item-details">
                         <div>{item.ItemName}</div>
                         <div>Size: {item.selectedSize || "One Size"}</div>

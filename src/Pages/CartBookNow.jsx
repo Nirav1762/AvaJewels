@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { CartContext } from '../contexts/CartContext';
 import { Link } from 'react-router-dom';
+import SmartImage from '../Components/SmartImage';
 
 const CartBookNow = () => {
     const { cartItems } = useContext(CartContext);
@@ -79,11 +80,11 @@ const CartBookNow = () => {
             </form>
 
             <div className="order-summary">
-                <Link to="/"><img style={{width: "15%", cursor: "pointer"}} src='/Images/White AVA.png' alt="AVA Logo" /></Link>
+                <Link to="/"><SmartImage style={{width: "15%", cursor: "pointer"}} src='Images/White AVA.png' alt="AVA Logo" /></Link>
                 <h3>Your Items</h3>
                 {cartItems.map((item, index) => (
                     <div className="summary-item" key={index}>
-                        <img src={item.PrimarySource} alt={item.ItemName} />
+                        <SmartImage src={item.PrimarySource} alt={item.ItemName} />
                         <div className="item-details">
                             <div>{item.ItemName}</div>
                             <div>Size: {item.selectedSize || "One Size"}</div>

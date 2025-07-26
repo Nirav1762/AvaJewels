@@ -1,6 +1,7 @@
 import React from 'react'
 import '../main.css'
 import { Link } from 'react-router-dom'
+import SmartImage from './SmartImage';
 
 const Menu = ( {setShowMenu} ) => {
     const exploreTemplate = {
@@ -27,7 +28,7 @@ const Menu = ( {setShowMenu} ) => {
     <div className='overlay' onClick={() => close()}>
         <div className="menuBarSection">
             <div className='menuBarHeader'>
-                <Link to="/" className='menuLogo'><img src='/Images/Black AVA.png' ></img></Link>
+                <Link to="/" className='menuLogo'><SmartImage src='Images/Black AVA.png' ></SmartImage></Link>
                 <button onClick={close} className="clearButton">✕</button>
             </div>
             <div className='menuExploreSection'>

@@ -3,6 +3,7 @@ import '../main.css'
 import { Link } from 'react-router-dom'
 import earringsData from './earrings.json';
 import ringsData from './rings.json';
+import SmartImage from './SmartImage';
 
 const Search = ({ setShowSearch }) => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -75,7 +76,7 @@ const Search = ({ setShowSearch }) => {
                                     className="resultsItem"
                                 >
                                     <div className='resultsContainer'>
-                                        <div className='resultsImage'><img src={item.PrimarySource} /></div>
+                                        <div className='resultsImage'><SmartImage src={item.PrimarySource} /></div>
                                         <div className="resultsInfo">
                                             <div className="resultsName">{item.ItemName}</div>
                                             <div className="resultsPrice">{item.Price}</div>
@@ -96,7 +97,7 @@ const Search = ({ setShowSearch }) => {
                                     className="resultsItem"
                                 >
                                     <div className='resultsContainer'>
-                                        <div className='resultsImage'><img src={item.PrimarySource} /></div>
+                                        <div className='resultsImage'><SmartImage src={item.PrimarySource} /></div>
                                         <div className="resultsInfo">
                                             <div className="resultsName">{item.ItemName}</div>
                                             <div className="resultsPrice">{item.Price}</div>
